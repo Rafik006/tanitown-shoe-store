@@ -1,0 +1,17 @@
+.description {
+    width: 100%;
+    margin: 0px auto;
+    background-color:  rgb(6, 32, 63);
+    text-align: center;
+    height: 50px;
+    
+
+}
+.description p {
+    color:white;
+    font-size: 14px;
+}
+.description p span {
+    color: rgba(255, 0, 0, 0.7);
+    font-weight: bold;
+}

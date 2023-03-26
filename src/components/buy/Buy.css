@@ -1,0 +1,114 @@
+.item-container {
+    display: flex;
+    box-shadow: 3px gray;
+    width: 1000px;
+    margin: 20px auto;
+    justify-content: space-between;
+    
+}
+.item-container img {
+    width: 498px;
+    height: 498px;
+}
+
+.item-container .product-desc{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-desc .product-title {
+    display: flex;
+    margin: 20px 0px 0px 0px ;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+.price {
+    display: flex;
+
+}
+.price p{
+    margin-right: 10px;
+    font-size: 25px;
+}
+.product-size {
+    display: flex;
+    
+
+}
+.size {
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+}
+.size .title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.product-size button {
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgb(229, 220, 220);
+    
+    margin-right: 5px ;
+}
+.product-size .clicked{
+    background-color: rgb(6, 32, 63);
+    color:white;
+    cursor: pointer;  
+}
+.product-size button:hover {
+    background-color: rgb(6, 32, 63);
+    color:white;
+    cursor: pointer;
+}
+.checkout {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.checkout .handle-count {
+    display: flex;
+    align-items: center;
+    
+}
+.checkout .handle-count button {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(229, 220, 220,0.5);
+    border: none;
+    font-size: 20px;
+
+}
+.checkout .handle-count button:hover{
+        color: black;
+}
+.checkout .handle-count p {
+    margin: 0px 20px ;
+    font-size: 20px;
+    font-weight: bold;
+}
+.checkout .checkout-btn {
+    margin-left: 15px;
+    width: 300px;
+    height: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: rgb(6, 32, 63);;
+    color:white
+}
+
+
+.customer-information form input {
+    width:220px ;
+    height: 50px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(228, 221, 221);
+    border-radius: 5px;
+    padding-left:5px;
+}

@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    position: sticky;
+    top: 0px;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background-color: white;
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+
+}
+.logo {
+    margin: 0px 150px;
+    
+}
+
+.logo img {
+    width: 170px;
+    height: 75.55px;
+    padding: 20px;
+}
+.navigation {
+    display:  flex;
+    width:  150px;
+    height: 99px;
+    margin-right: 200px;
+    justify-content: space-around;
+    align-items: center;
+}
+.navigation p {
+    font-weight: bold;
+}
+.navigation:hover {
+    cursor: pointer;
+}
+
